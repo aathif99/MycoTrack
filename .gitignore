@@ -1,0 +1,101 @@
+# =============================================================================
+# Machine Learning & Deep Learning Models (Keras, H5, Checkpoints, etc.)
+# =============================================================================
+# Ignore all Keras and model files across the project
+*.keras
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.ckpt*
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Model directories (both at root and within ai_service or subfolders)
+**/model/
+**/models/
+model/
+models/
+saved_model/
+**/saved_model/
+checkpoints/
+**/checkpoints/
+
+# =============================================================================
+# Node.js & Backend Artifacts
+# =============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# User uploads, generated heatmaps, and dynamic media
+uploads/
+**/uploads/
+heatmaps/
+**/heatmaps/
+profile_picture/
+**/profile_picture/
+
+# =============================================================================
+# Python & AI Service Artifacts
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# =============================================================================
+# Environment variables & secrets
+# =============================================================================
+.env
+.env.*
+!.env.example
+
+# =============================================================================
+# Operating System & IDE Files
+# =============================================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
